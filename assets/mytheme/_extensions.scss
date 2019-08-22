@@ -1,0 +1,53 @@
+/* Add your customizations of theme here */
+$boderRadius: 15px;
+.ui-dropdown.new {
+  // background: red;
+  border-radius: $boderRadius;
+  border: none;
+  .ui-dropdown-label {
+    padding-right: 4em;
+    padding-left: 1em;
+    border-radius: $boderRadius;
+  }
+
+  .ui-dropdown-trigger {
+    border-radius: $boderRadius;
+    .ui-dropdown-trigger-icon {
+      margin-top: -.4em;
+      margin-left: -.8em;
+    }
+  }
+}
+
+.ui-multiselect.new {
+  border-radius: $boderRadius;
+  border: none;
+  .ui-multiselect-label {
+    padding-right: 4em;
+    padding-left: 1em;
+    border-radius: $boderRadius;
+  }
+
+  .ui-multiselect-trigger {
+    border-radius: $boderRadius;
+    .ui-multiselect-trigger-icon {
+      margin-top: -.4em;
+      margin-left: -.8em;
+    }
+  }
+}
+
+.ui-button.new {
+&.ui-button-text-only {
+    .ui-button-text {
+        // padding: $buttonTextOnlyPaddingNew;
+        padding: 0.43em 0em;
+        margin-left: 30%;
+    }
+}
+}
+
+.new.ui-button.ui-state-default.ui-button-secondary  {
+  background-color: #d6d3d3;
+  border: none;
+}
